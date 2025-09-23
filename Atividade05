@@ -1,0 +1,72 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.atividade005;
+
+import java.util.Scanner;
+import java.lang.Math;
+
+/**
+ *
+ * @author Aluno
+ */
+public class Atividade005 {
+
+   // Atividade01
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner (System.in);
+   
+    
+//            int i, num;
+//            i =0;
+//            System.out.println("escreva um numero: ");
+//            num = entrada.nextInt();
+//       
+//            while  (i <num){
+//              i = i+1;
+//            System.out.println(i);
+//            } 
+//    
+            
+            // Atividade02
+            
+           
+//            int  num, soma,qntd;
+//            num = 0;
+//            soma = 0;
+//            qntd =0;
+//           
+//             
+//            while (num != -1) {
+//            if  (num != -1) {
+//                System.out.println("escreva um numero: ");
+//                num = entrada.nextInt();
+//                soma = soma + num;
+//                qntd = qntd +1;
+//            }
+//           
+//            if  (num == -1) {
+//                soma = soma + 1;
+//                qntd = qntd - 1;
+//                System.out.println("A soma e:" + soma);
+//                System.out.println("a quantidade de numeros digitados foi:" + qntd);
+//            }
+//            
+//            }
+
+
+              //Atividade 03
+              
+              
+
+
+
+
+
+
+    }
+            
+    }
+   
+
