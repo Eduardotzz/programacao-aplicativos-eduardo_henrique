@@ -5,6 +5,7 @@ import java.util.Random;
 
 public class AtividadeJava {
 
+    @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
 
         //                      Atividade01 
@@ -55,7 +56,7 @@ public class AtividadeJava {
 //                               Atividade03
  
 // 
-//               Scanner entrada = new Scanner(System.in);
+               Scanner entrada = new Scanner(System.in);
 //               Random random = new Random();
 //               
 //               int numero_secreto = random.nextInt(100) + 1;
@@ -108,30 +109,108 @@ public class AtividadeJava {
 //                      while (n < 0);
 //                            System.out.println("Numero valido" + n );
 ////                             
-//    
+
 
 
                                 // Atividade05
+
+                            
+//                            String senhaCorreta = "senai123";
+//                            String senhaDigitada;
+//                            int tentativas = 3;
+//                            
+//                            do{
+//                            
+//                            System.out.println("Digite sua senha");
+//                            senhaDigitada = entrada.nextLine();
+//                            if (senhaDigitada.equals(senhaCorreta)){
+//                            
+//                                System.out.println("senha correta" );
+//                                break;
+//                                
+//                            }
+//                            else{
+//                                tentativas--;
+//                                System.out.println("senha invalida" + tentativas);
+//                            }
+//                            }while ( tentativas>0); 
+//                            
+//                            if (tentativas ==0)
+//                                
+//                                System.out.println("voce esgotou suas tentativas");
+////                            
+//                            
+                                   
+//                                 Atividade06
+
+//  Scanner entrada = new Scanner(System.in);             
 //
-                           Scanner entrada = new Scanner(System.in);
-
-                           senha = "senai123";
-                           tentativas = 3;
-                           
-                         while (tentativas)  
-                          do{
-                          
-                          if (senha){
-                          
-                              System.out.println("acesso concedido");
-                          }
-                          
-                          }while (senha) 
-
+//        System.out.println("Digite o número para ver a tabuada:");
+//        int numero = Integer.parseInt(entrada.nextLine());
+//
+//        int resultado;
+//
+//        for (int i = 0; i <= 10; i++) {
+//            resultado = numero * i;
+//            System.out.println(numero + " x " + i + " = " + resultado);
 //        }
-
-
-
+//
+//        entrada.close();
+    
+                             // Atividade07
+    
+//                           int num,resultado, resultado2;
+//                           resultado=0;
+//                           resultado2=0;       
+//                           System.out.println("insira o numero: ");
+//                           num = entrada.nextInt();
+//                           
+//                           for (int i = 0; i <=num; i++) {
+//                               if(i%2==0){
+//                            resultado += i;
+//                               }
+//                               else{ resultado2 +=i;}
+//                               
+//                           }
+//                           System.out.println("soma dos numeros pares ate "+ num+ ":"+resultado);
+//                           System.out.println("soma dos numeros impares ate "+ num+ ":"+resultado2);
+//            
+//                          entrada.close(); 
+//                        
+    
+    
+    
+                                        //Atividade 08
+                                        
+                                        
+//                                int num;
+//                                System.out.println("Insira um número:");
+//                                num = entrada.nextInt();
+//
+//                                for (int i = 2; i <= num; i++) {
+//                                    boolean ehPrimo = true;
+//
+//                                    for (int divisor = 2; divisor < i; divisor++) {
+//                                        if (i % divisor == 0) {
+//                                            ehPrimo = false;
+//                                            break;
+//                                        }
+//                                    }
+//
+//                                    if (ehPrimo) {
+//                                        System.out.print(i + " ");
+//                                    }
+//                                }
     }
-    }
+
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
 
