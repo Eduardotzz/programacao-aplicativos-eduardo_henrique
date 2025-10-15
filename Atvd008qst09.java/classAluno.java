@@ -1,4 +1,4 @@
-package AtividadeAluno;
+package atividadealuno;
 
 public class Gabarito {
     private char[] respostas;
